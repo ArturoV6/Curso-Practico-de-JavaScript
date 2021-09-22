@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,21 @@
     <title>Figuras Geometricas</title>
 </head>
 <body>
-    <h1>Figuras Geometricas</h1>
-
+    <header>
+        <h1>Figuras Geometricas</h1>
+        <p>Este es mi proyecto del curso practico de JavaScript</p>
+    </header>
+    <main>
+        <section>
+            <h2>Calcula el area y perimetro de un cuadrado</h2>
+            <form action="">
+                <label for="input_type_num">Escribe cuanto mide cada lado de tu cuadrado.</label>
+                <input id="input_type_num" type="number" >
+                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el Perimetro</button>
+                <button type="button" onclick="calcularAreaCuadrado()">Calcular el Area</button>
+            </form>
+        </section>
+    </main>
     <script src="./code.js"></script>
 </body>
 </html>
