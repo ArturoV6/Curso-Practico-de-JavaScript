@@ -21,7 +21,7 @@ header {
     color: #fff;
     position: fixed;
     width: 100%;
-    top: 1px;
+    top: 0.1px;
 }
 
 header h1{
@@ -40,7 +40,6 @@ header .p{
 main{
     width: 80%;
     margin: 0 auto;
-    height: 1000px;
 }
 
 .section-figure-div {
@@ -104,4 +103,37 @@ input[type="number"]::-webkit-inner-spin-button{
 .button_figure:hover{
     background-color: #1a1d24;
     border-radius: 5px;
+}
+
+.section-figure-div2{
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+    width: 30%;
+    margin: 0 auto;
+    height: 203px;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 100px;
+}
+
+.section-figure-div3{
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+    width: 30%;
+    margin: 0 auto;
+    height: 132px;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #252932;
+    margin-top: 130px;
+    height: 30px;
+    padding: 8px;
+    color: #fff;
 }

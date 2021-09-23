@@ -32,26 +32,38 @@
                 </form>
             </div>
         </section>
-        <section>
-            <h2>Calcula el area y el perimetro del triangulo</h2>
-            <p>Escribe el lado la base y la altura del triangulo</p>
-            <label for="input_type_num2">Lados</label>
-            <input id="input_type_num2" type="number">
-            <label for="input_type_num2">Base</label>
-            <input id="input_type_num2" type="number">
-            <label for="input_type_num2">Altura</label>
-            <input id="input_type_num2" type="number" >
-            <button type="button" onclick="calcularPerimetroDelTriangulo()">Calcular el Perimetro</button>
-            <button type="button" onclick="calcularAreaTriangulo()">Calcular el Area</button>
+        <section class="section-figure-1">
+            <div class="section-figure-div2">
+                <h2>Calcula el area y el perimetro del triangulo</h2>
+                <form action="" class="section-figure-form">
+                    <input class="input_figure" id="input_type_num2" type="number" placeholder="lados">
+                    <input class="input_figure" id="input_type_num2" type="number" placeholder="base">
+                    <input class="input_figure" id="input_type_num" type="number" placeholder="Altura">
+                    <div class="button-div-figure">
+                    <button type="button" onclick="calcularPerimetroDelTriangulo()" class="button_figure">Calcular el Perimetro</button>
+                    <button type="button" onclick="calcularAreaTriangulo()" class="button_figure">Calcular el Area</button>
+                </div>
+                </form>
+                </div>
         </section>
-        <section>
+        <section class="section-figure-3">
+            <div class="section-figure-div">
             <h2>Calcula el area y el perimetro del circulo</h2>
-            <p>Escribe el radio de tu circulo</p>
-            <input id="input_type_num3" type="number" >
-            <button type="button" onclick="calcularPerimetroCirculo()">Calcular el Perimetro</button>
-            <button type="button" onclick="areaDelCirculo()">Calcular el Area</button>
-        </section>
+            <form action="" class="section-figure-form">
+            <input class="input_figure" id="input_type_num3" type="number" placeholder="radio">
+            <div class="button-div-figure">
+            <button type="button" onclick="calcularPerimetroCirculo()" class="button_figure">Calcular el Perimetro</button>
+            <button type="button" onclick="areaDelCirculo()" class="button_figure">Calcular el Area</button>
+        </div>
+        </form>
+        </div>
+        </section>  
     </main>
+    <footer>
+        <div class="footer-div">
+            <p class="p2">Pagina echa por mi</p>
+        </div>
+    </footer>
     <script src="./code.js"></script>
 </body>
 </html>
