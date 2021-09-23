@@ -5,21 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras Geometricas</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Figuras Geometricas</h1>
-        <p>Este es mi proyecto del curso practico de JavaScript</p>
+        <div class="h2">
+            <h1>Figuras Geometricas</h1>
+        </div>
+        <div class="p">
+            <p>Este es mi proyecto del curso practico de JavaScript</p>
+        </div>
     </header>
     <main>
-        <section>
-            <h2>Calcula el area y perimetro de un cuadrado</h2>
-            <form action="">
-                <label for="input_type_num">Lados</label>
-                <input id="input_type_num" type="number" >
-                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el Perimetro</button>
-                <button type="button" onclick="calcularAreaCuadrado()">Calcular el Area</button>
-            </form>
+        <section class="section-figure-1">
+            <div class="section-figure-div">
+             <h2>Calcula el area y perimetro de un cuadrado</h2>
+                <form action="" class="section-figure-form">
+                 <label for="input_type_num" class="label_figure">Lados</label>
+                 <input class="input_figure" id="input_type_num" type="number">
+                 <div class="button-div-figure">
+                 <button type="button" onclick="calcularPerimetroCuadrado()" class="button_figure">Calcular el Perimetro</button>
+                 <button type="button" onclick="calcularAreaCuadrado()" class="button_figure_1">Calcular el Area</button>
+                </div>
+                </form>
+            </div>
         </section>
         <section>
             <h2>Calcula el area y el perimetro del triangulo</h2>
