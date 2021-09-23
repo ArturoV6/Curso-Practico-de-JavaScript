@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header {
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    padding: 18px;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+header, .h2{
+}
+
+header .p{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 16px;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-figure-div {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-figure-div .h2 {
+    display: flex;
+}
+
+.label_figure{
+    position: relative;
+    bottom: 10px;
+    
+}
