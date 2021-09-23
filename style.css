@@ -19,6 +19,9 @@ header {
     height: 73px;
     margin-bottom: 40px;
     color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 1px;
 }
 
 header h1{
@@ -37,6 +40,7 @@ header .p{
 main{
     width: 80%;
     margin: 0 auto;
+    height: 1000px;
 }
 
 .section-figure-div {
@@ -48,6 +52,7 @@ main{
     height: 132px;
     padding: 12px;
     border-radius: 6px;
+    margin-top: 100px;
 }
 
 .section-figure-div h2 {
