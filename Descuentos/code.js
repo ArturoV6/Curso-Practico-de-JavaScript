@@ -18,7 +18,7 @@ function buttonPriceDiscount(){
 
     const precioConDescuento = clacularPrecio(priceValue, discountValue);
 
-    const resultP = document.getElementById("price_result");
+    const resultP = document.getElementById("price_result");   
     resultP.innerText="El precio con descuento seria este " + "$" + precioConDescuento;
 }
 
