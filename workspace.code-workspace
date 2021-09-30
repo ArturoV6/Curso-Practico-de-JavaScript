@@ -1,10 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "..\\Aumento de salario"
+		},
+		{
+			"path": "Descuentos"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Curso practico de JS"
+		"liveServer.settings.multiRootWorkspaceName": "Aumento de salario"
 	}
 }
